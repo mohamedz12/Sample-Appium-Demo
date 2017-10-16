@@ -18,8 +18,8 @@ public class AmazonTest {
 	public static AndroidDriver driver;
 	
 	public static void main(String[] args) throws MalformedURLException, InterruptedException {
-		/*String path="D:\\DebugView\\Eula.txt";
-		File apk=new File(path);*/
+		String path="D:\\DebugView\\Eula.txt";
+		File apk=new File(path);
 		
 		DesiredCapabilities cap=new DesiredCapabilities();
 		cap.setCapability("browserName", "Chrome");
